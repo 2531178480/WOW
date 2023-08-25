@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+li {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+}
+
+#clearButton {
+    display: block;
+    margin: auto;
+}
+
+#messageForm {
+    text-align: center; /* 添加了这里 */
+}
+
+#messageInput {
+    display: block; /* 添加了这里 */
+    margin: auto; /* 添加了这里 */
+}
