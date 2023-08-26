@@ -14,16 +14,37 @@ li {
     margin: 10px;
 }
 
-#clearButton {
-    display: block;
-    margin: auto;
+.page-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.main-content {
+  padding: 0;
+}
+
+.panel {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#messages {
+  max-width: 100%;
+  padding: 0 20px;  
+  margin: 0 auto;
 }
 
 #messageForm {
-    text-align: center; /* 添加了这里 */
+  display: block;
+  margin: 0 auto;
 }
 
 #messageInput {
-    display: block; /* 添加了这里 */
-    margin: auto; /* 添加了这里 */
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#clearButton {
+  margin: 10px auto 0;
 }
